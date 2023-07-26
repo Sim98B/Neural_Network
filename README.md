@@ -9,15 +9,9 @@ This repo has various handmade neural networks
    The function provides numeric and graphic outcome about loss decreasing and a confusion matrix.
    
    Parameters: epochs = **int**, number of learning epochs (defult = 200)
-   
                lr = **float** learning_rate (default = 0.001)
-   
                verbose = **int** verbosity, in epochs, for displaying loss decreasing (default = 10)
-   
                bs = **int** batch size of the train set used to adjust weights and bias (default = 32)
-   
                es = **int** number of epochs without a loss decrease beyond which learning is stopped (default = 30)
-   
                dropout = **float** percentage of feature to drop and don't use during learning (default = 0.2)
-   
                plot = **0 or 1** whether display train and validation loss decreasing and confusion matrix's plots (default = 1)
